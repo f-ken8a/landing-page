@@ -194,19 +194,42 @@ li {
 .invite-section {
     background-color: #3882F6;
     color: #F9FAF8;
+    width: 1000px;
+    border-radius: 10px;
+    margin: 96px 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.left-invite {
-
+.invite-container {
+    width: 800px;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.right-invite {
+.call {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
 
+.sign-message {
+    color: #E5E7EB;
+    margin: 0;
+}
+
+#button2 {
+    border-style: solid;
+    border-color: #F9FAF8;
 }
 
 /* ---------- Footer ---------- */
 
 .footer {
     color: #F9FAF8;
+    text-align: center;
+    margin: 24px;
 }
