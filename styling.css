@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.surrounding {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/* Common properties */
+
+.background-header, 
+.background-main-section, 
+.background-information-section, 
+.background-quote-section, 
+.background-invite-section, 
+.background-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.background-header, .background-main-section, .background-footer {
+    background-color: #1F2937;
+}
+
+.header, 
+.main-section, 
+.information-section, 
+.quote-section, 
+.invite-secton, 
+.footer {
+    width: 1000px;
+}
+
+/* ---------- Header ---------- */
+
+.background-header {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+
+}
+
+/* ---------- Top main section ---------- */
+
+.main-section {
+    display: flex;
+}
+
+.left-main {
+
+}
+
+#title {
+
+}
+
+.right-main {
+
+}
+
+/* ---------- Information section ---------- */
+
+.information-section {
+    display: flex;
+
+}
+
+.subtitle-info {
+
+}
+
+.image-info {
+
+}
+
+/* ---------- Quote section ---------- */
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+#quote {
+
+}
+
+#person {
+
+}
+
+/* ---------- Customer invite section ---------- */
+
+.invite-section {
+    display: flex;
+}
+
+.left-invite {
+
+}
+
+.right-invite {
+
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+
+}
